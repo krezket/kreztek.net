@@ -1,18 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
+import Homepage from './pages/Homepage';
+import './App.css'; 
 
-function App() {
-    const [count, setCount] = useState(0)
+function App() { 
 
     return (
-        <>
-            <header>
-                <h1>KrezTek</h1>
-            </header>
-        </>
+        <Router>
+            <Routes>
+
+                <Route path='/' element={ <Homepage /> } />
+
+            </Routes>
+        </Router>
     )
-}
+};
 
 export default App

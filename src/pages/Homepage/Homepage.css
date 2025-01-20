@@ -1,0 +1,8 @@
+.homepage-con {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.homepage-main {
+    display: flex;
+}
