@@ -7,6 +7,12 @@ function Header() {
         <>
             <header>
                 <h1>KrezTek</h1>
+
+                <nav>
+                    <a>search</a>
+                    <a>profile</a>
+                    <a>cart</a>
+                </nav>
             </header>
         </>
     )
