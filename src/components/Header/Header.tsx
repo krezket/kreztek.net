@@ -6,7 +6,7 @@ function Header() {
     return (
         <>
             <header>
-                <h1>KrezTek</h1>
+                <h1 className='logo'>KrezTek</h1>
 
                 <nav>
                     <a>search</a>

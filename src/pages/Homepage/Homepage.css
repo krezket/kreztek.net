@@ -1,8 +1,12 @@
 .homepage-con {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 .homepage-main {
     display: flex;
+    height: 50%;
+    width: 50%;
+    background-color: black;
 }
