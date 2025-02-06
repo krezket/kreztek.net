@@ -11,6 +11,17 @@ header {
     padding: 0;
 }
 
+h1 {
+    font-family: "Geostar Fill", serif;
+    margin: 0;
+    padding: 2rem;
+    &:hover {
+        color: red;
+        cursor: pointer;
+        background-image: url(../../assets/daftavatar.gif);
+    }
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -25,8 +36,3 @@ nav {
     }
 }
 
-h1 {
-    font-family: "Geostar Fill", serif;
-    margin: 0;
-    padding: 2rem;
-}
